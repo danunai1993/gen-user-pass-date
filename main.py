@@ -22,7 +22,6 @@ format = getname+word+str(day)
 
 print(getname)
 print(getlast)
-print(getname)
 print(day)
 
 print(format)
@@ -33,4 +32,5 @@ user = format + " || " + password + " || " + str(day) + "/" + month + "/" + str(
 txt.write(user)
 print(user)
 txt.close()
+
 
